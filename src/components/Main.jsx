@@ -1,36 +1,37 @@
 import React from 'react';
+import freeShopping from '../assets/img/f1.png'
 
 export default function Main() {
 
     const cardFreeShopping = [
         {
             id: '1',
-            image: "./src/assets/img/f1.png", 
+            image: `${ freeShopping }`, 
             description: "Free Shopping",
             color: 'text-[#088178]',
             background: 'bg-[#fddde4]'
         },
         {
             id: '2',
-            image: "./src/assets/img/f1.png", 
+            image: `${ freeShopping }`,
             description: "Free Shopping",
             color: 'text-[#088178]',
             background: 'bg-[#cdebbc]'
         },
         {
-            image: "./src/assets/img/f1.png", 
+            image: `${ freeShopping }`,
             description: "Free Shopping",
             color: 'text-[#088178]',
             background: 'bg-[#d1e8f2]'
         },
         {
-            image: "./src/assets/img/f1.png", 
+            image: `${ freeShopping }`,
             description: "Free Shopping",
             color: 'text-[#088178]',
             background: 'bg-[#cdd4f8]'
         },
         {
-            image: "./src/assets/img/f1.png", 
+            image: `${ freeShopping }`,
             description: "Free Shopping",
             color: 'text-[#088178]',
             background: 'bg-[#f6dbf6]'

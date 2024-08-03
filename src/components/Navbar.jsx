@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaShoppingBag, FaEquals, FaTimes } from 'react-icons/fa';
+import tipsLogo from '../assets/logo-loja-tips.png'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
   return (
     <nav className="bg-[#E3E6F3] flex items-center justify-between px-6 py-4 md:px-20 md:py-6 sticky shadow-md z-10">
       <a href="https://tipscode.com.br/">
-        <img className="h-10 w-auto" src="../logo-loja-tips.png" alt="Logo" />
+        <img className="h-10 w-auto" src={ tipsLogo } alt="Logo" />
       </a>
       <div className="hidden md:flex items-center justify-center">
         <ul className="flex items-center justify-center list-none relative">
